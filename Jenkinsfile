@@ -40,7 +40,5 @@ pipeline {
                 sh 'aws s3 cp ./dist/angular/ s3://hcaf/ --recursive --acl public-read'
             }
         }
-        
-        
     }
 }
